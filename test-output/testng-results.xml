@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Err msg is displayed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13008" started-at="2018-12-01T21:44:04Z" finished-at="2018-12-01T21:44:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13008" started-at="2018-12-01T21:44:04Z" finished-at="2018-12-01T21:44:17Z">
+      <class name="script.VerifyInvalidLogin">
+        <test-method status="PASS" signature="preConditon()[pri:0, instance:script.VerifyInvalidLogin@3a82f6ef]" name="preConditon" is-config="true" duration-ms="10514" started-at="2018-12-02T03:14:04Z" finished-at="2018-12-02T03:14:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preConditon -->
+        <test-method status="PASS" signature="testVerifyInvalidLogin()[pri:0, instance:script.VerifyInvalidLogin@3a82f6ef]" name="testVerifyInvalidLogin" duration-ms="1368" started-at="2018-12-02T03:14:14Z" finished-at="2018-12-02T03:14:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Err msg is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerifyInvalidLogin -->
+        <test-method status="PASS" signature="postCondition()[pri:0, instance:script.VerifyInvalidLogin@3a82f6ef]" name="postCondition" is-config="true" duration-ms="1084" started-at="2018-12-02T03:14:16Z" finished-at="2018-12-02T03:14:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- script.VerifyInvalidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
